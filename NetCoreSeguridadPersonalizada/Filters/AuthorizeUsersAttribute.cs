@@ -36,7 +36,6 @@ namespace NetCoreSeguridadPersonalizada.Filters
                 //DEVOLVEMOS LA PETICION A LOGIN
                 context.Result = new RedirectToRouteResult(rutaLogin);
             }
-            throw new NotImplementedException();
         }
     }
 }
